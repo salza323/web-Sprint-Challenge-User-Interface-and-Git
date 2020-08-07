@@ -28,13 +28,15 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
+
+
+
 body {
 	line-height: 1;
 }
 ol, ul {
 	list-style: none;
 }
-
 
 .navigation{
     display:flex;
@@ -85,91 +87,70 @@ p {
     margin: 0 auto;
 }
 
+/* .top-content .text-container{
+    width: 20%;
+    padding: 0 1%;
+    padding-bottom: 20px;  
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
+    border-top: 1px dashed black;
 }
 
-.top-content .text-container {
-    width: 48%;
-    padding: 0 1%;
-    padding-bottom: 20px;  
-}
-
-.middle-content {
-    margin-bottom: 20px;
-    border-bottom: 1px dashed black;
-}
-
-.middle-content h2 {
-    padding: 0 2%;
-    margin-bottom: 0;
-}
-
-.middle-content .boxes {
+.top-content__left{
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-}
-
-.middle-content .boxes .box {
-    width: 12.5%;
-    height: 100px;
-    /* background: black; */
-    margin: 20px 2.5%;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.boxes .box1{
-    background-color:teal;
-}
-.boxes .box2{
-    background-color:gold;
-}
-.boxes .box3{
-    background-color:cadetblue;
-}
-.boxes .box4{
-    background-color:coral;
-}
-.boxes .box5{
-    background-color:crimson;
-}
-.boxes .box6{
-    background-color:forestgreen;
-}
-.boxes .box7{
-    background-color:darkorchid;
-}
-.boxes .box8{
-    background-color:hotpink;
-}
-.boxes .box9{
-    background-color:indigo;
-}
-.boxes .box10{
-    background-color:dodgerblue;
-}
-
-.bottom-content {
-    display: flex;
-    margin: 0 2% 20px;
     justify-content: space-around;
 }
 
-.bottom-content .text-container {
-    padding-right: 4%;
+.top-content__right{
+    display: flex;
+    justify-content: space-around;
 }
 
-.bottom-content .text-container:last-child {
-    padding-right: 0;
+.middle-content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+    border-top: 1px dashed black;
+} */
+
+.top-content .text-container{
+    width: 20%;
+    padding: 0 1%;
+    padding-bottom: 20px;
 }
+
+.top-content{
+    border-bottom: 1px dashed black;
+    border-top: 1px dashed black;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.middle-content .text-container{
+    width: 20%;
+    padding: 0 1%;
+    padding-bottom: 20px;
+}
+
+.middle-content{
+    border-bottom: 1px dashed black;
+    border-top: 1px dashed black;
+}
+
+
+
+
+
+
+
 
 footer {
     width: 100%;
